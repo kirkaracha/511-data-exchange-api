@@ -3,6 +3,8 @@
 namespace kirkaracha\Laravel511DataExchange;
 
 // https://medium.com/@lasselehtinen/getting-started-on-laravel-package-development-a62110c58ba1
+// https://medium.com/sureshvel/laravel-5-5-custom-packages-with-autodiscover-the-providers-5772c60d847e
+// http://laraveldaily.com/how-to-create-a-laravel-5-package-in-10-easy-steps/
 
 class Laravel511DataExchange
 {
