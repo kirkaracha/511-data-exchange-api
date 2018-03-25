@@ -25,7 +25,9 @@
       "type": "git"
     }
   ],
-  "require": {},
+  "require": {
+    "kirkaracha/guzzle-gofer": "dev-master"
+  },
   "require-dev": {
     "phpunit/phpunit": "^7.0",
     "orchestra/testbench": "^3.6"
