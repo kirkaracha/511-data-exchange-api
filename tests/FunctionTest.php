@@ -2,6 +2,8 @@
 
 namespace Kirkaracha\FiveOneOneDataDataExchange\Test;
 
+use Kirkaracha\FiveOneOneDataDataExchange\FiveOneOneDataExchange;
+
 class FunctionTest extends TestCase
 {
     /**
@@ -10,7 +12,7 @@ class FunctionTest extends TestCase
      */
     public function testMultiplyReturnsCorrectValue(): void
     {
-        $this->assertSame(MyPackage::multiply(4, 4), 16);
-        $this->assertSame(MyPackage::multiply(2, 9), 18);
+        $this->assertSame(FiveOneOneDataExchange::multiply(4, 4), 16);
+        $this->assertSame(FiveOneOneDataExchange::multiply(2, 9), 18);
     }
 }

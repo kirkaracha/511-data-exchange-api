@@ -2,9 +2,8 @@
 
 namespace Kirkaracha\FiveOneOneDataDataExchange\Test;
 
-use Illuminate\Foundation\Application;
 use Kirkaracha\FiveOneOneDataDataExchange\FiveOneOneDataDataExchangeFacade;
-use Kirkaracha\FiveOneOneDataDataExchange\FiveOneOneDataDataExchangeServiceProvider;
+use Kirkaracha\FiveOneOneDataDataExchange\FiveOneOneDataExchangeServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
@@ -18,7 +17,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            FiveOneOneDataDataExchangeServiceProvider::class
+            FiveOneOneDataExchangeServiceProvider::class
         ];
     }
 

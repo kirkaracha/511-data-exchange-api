@@ -4,7 +4,7 @@ namespace Kirkaracha\FiveOneOneDataDataExchange;
 
 use Illuminate\Support\ServiceProvider;
 
-class FiveOneOneDataDataExchangeServiceProvider extends ServiceProvider
+class FiveOneOneDataExchangeServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services
@@ -13,7 +13,9 @@ class FiveOneOneDataDataExchangeServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-
+        $this->publishes([
+            __DIR__ . '/config/511-data-exchange.php' => config_path('511-data-exchange.php'),
+        ]);
     }
 
     /**
