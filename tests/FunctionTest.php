@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace kirkaracha\Laravel511DataExchange\Test;
+namespace Kirkaracha\FiveOneOneDataDataExchange\Test;
 
 class FunctionTest extends TestCase
 {

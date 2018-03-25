@@ -1,10 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace kirkaracha\Laravel511DataExchange;
+namespace Kirkaracha\FiveOneOneDataDataExchange;
 
-use Illuminate\Support\Facades\Facade;
-
-class Laravel511DataExchangeFacade
+class FiveOneOneDataDataExchangeFacade
 {
     protected static function getFacadeAccessor()
     {

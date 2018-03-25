@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace kirkaracha\Laravel511DataExchange\Test;
+namespace Kirkaracha\FiveOneOneDataDataExchange\Test;
 
 use Illuminate\Foundation\Application;
-use kirkaracha\Laravel511DataExchange\Laravel511DataExchangeFacade;
-use kirkaracha\Laravel511DataExchange\Laravel511DataExchangeServiceProvider;
+use Kirkaracha\FiveOneOneDataDataExchange\FiveOneOneDataDataExchangeFacade;
+use Kirkaracha\FiveOneOneDataDataExchange\FiveOneOneDataDataExchangeServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
@@ -18,7 +18,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            Laravel511DataExchangeServiceProvider::class
+            FiveOneOneDataDataExchangeServiceProvider::class
         ];
     }
 
@@ -31,7 +31,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Laravel511DataExchange' => Laravel511DataExchangeFacade::class,
+            'FiveOneOneDataExchange' => FiveOneOneDataDataExchangeFacade::class,
         ];
     }
 }
