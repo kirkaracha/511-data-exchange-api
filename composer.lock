@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddc5416750644ba0c1e51da354dc4b72",
+    "content-hash": "1ec60476a81db836b1a86bb06a04a8f6",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -189,11 +189,17 @@
         },
         {
             "name": "kirkaracha/guzzle-gofer",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kirkaracha/guzzle-gofer.git",
-                "reference": "37600e8df14496c20bf34c53b7ecf7e4112622c2"
+                "reference": "3014e0cd1fa84b88db4cee732b7081a989790f08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kirkaracha/guzzle-gofer/zipball/3014e0cd1fa84b88db4cee732b7081a989790f08",
+                "reference": "3014e0cd1fa84b88db4cee732b7081a989790f08",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3"
@@ -202,14 +208,14 @@
                 "orchestra/testbench": "^3.6",
                 "phpunit/phpunit": "^7.0"
             },
-            "type": "library",
+            "type": "package",
             "extra": {
                 "laravel": {
                     "providers": [
                         "Kirkaracha\\GuzzleGofer\\GuzzleGoferServiceProvider"
                     ],
                     "aliases": {
-                        "Debugbar": "Kirkaracha\\GuzzleGofer\\GuzzleGoferFacade"
+                        "GuzzleGofer": "Kirkaracha\\GuzzleGofer\\GuzzleGoferFacade"
                     }
                 }
             },
@@ -218,6 +224,7 @@
                     "Kirkaracha\\GuzzleGofer\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Kirk Franklin",
@@ -225,7 +232,7 @@
                 }
             ],
             "description": "GuzzleGofer: simple Guzzle setup for the most common use cases",
-            "time": "2018-03-25T01:44:55+00:00"
+            "time": "2018-03-25T06:56:29+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3758,9 +3765,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "kirkaracha/guzzle-gofer": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
