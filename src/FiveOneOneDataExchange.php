@@ -14,5 +14,4 @@ class FiveOneOneDataExchange
     {
         return $a * $b;
     }
-
 }

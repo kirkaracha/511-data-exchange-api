@@ -8,6 +8,7 @@ class FunctionTest extends TestCase
 {
     /**
      * Check that the multiply method returns correct result
+     *
      * @return void
      */
     public function testMultiplyReturnsCorrectValue(): void
